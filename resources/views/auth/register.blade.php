@@ -18,9 +18,9 @@
 
                 <!-- Email Address -->
                 <div class="mt-4">
-                    <x-label for="email" :value="__('Email')" />
-
-                    <x-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required />
+                    <x-input-label for="email" :value="__('Email')" />
+                    <x-text-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autocomplete="username" />
+                    <x-input-error :messages="$errors->get('email')" class="mt-2" />
                 </div>
 
                 <!-- Avatar -->

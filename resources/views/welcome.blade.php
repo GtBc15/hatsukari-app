@@ -3,12 +3,12 @@
     <div class="container pt-10 md:pt-18 px-6 mx-auto flex flex-wrap flex-col md:flex-row items-center bg-yellow-50">
         <!--左側-->
         <div class="flex flex-col w-full xl:w-2/5 justify-center lg:items-start overflow-y-hidden ">
-            <h1 class="my-4 text-3xl md:text-5xl text-green-800 font-bold leading-tight text-center md:text-left slide-in-bottom-h1">プログラマの犬猫談議</h1>
+            <h1 class="my-4 text-3xl md:text-5xl text-green-800 font-bold leading-tight text-center md:text-left slide-in-bottom-h1">マリンの部屋</h1>
             <p class="leading-normal text-base md:text-2xl mb-8 text-center md:text-left slide-in-bottom-subtitle">
-                仕事や勉強の合間に、犬猫談議するプログラマの集い場です。プログラミングの話題もウェルカム♪
+                仕事や勉強の合間に、気の合う仲間が好きなことを話す部屋。どんな話題でもウェルカムです...♪
             </p>        
             <p class="mb-4 text-red-600 font-bold text-base">
-                会員募集中
+                仲間募集中
             </p>
             <div class="flex w-full justify-center md:justify-start pb-24 lg:pb-0 fade-in">
                 {{--ボタン設定--}}
